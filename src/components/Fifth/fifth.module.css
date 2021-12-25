@@ -1,0 +1,41 @@
+.fifth{
+    margin-top: 101px;
+}
+.h1{
+    font-style: normal;
+    color: #2A2D46;
+}
+.info,.triger{
+    display: flex;
+    align-items: center;
+}
+.info{
+    justify-content: space-between;
+}
+.chislo{
+    font-style: normal;
+    color: #2A2D46;
+}
+.name{
+    font-style: normal;
+    color: #2A2D46;
+}
+@media (min-width: 1200px){
+    .h1{
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 196.19%;
+        margin-bottom: 37px;
+    }
+    .chislo{
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 196.19%;
+        margin-right: 24px;
+    }
+    .name{
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 196.19%;
+    }
+}

@@ -1,6 +1,7 @@
 .footer{
     width: 100%;
     background: #343A62;
+    margin-top: 63px;
 }
 .main,.logo,.menu{
     display: flex;
@@ -40,6 +41,7 @@
         padding-top: 127px;
     }
     .logo{
+        width: 218px;
         margin-right: 82px;
     }
     .mouse{
@@ -53,15 +55,19 @@
         font-size: 11px;
         line-height: 13px;
     }
+    .menu{
+        width: 366px;
+    }
     .menu p{
         font-size: 12px;
         line-height: 15px;
         margin-right: 29px;
     }
     .arrow{
-        margin-left: 78px;
+        margin-left: 62px;
     }
     .h1{
+        width: 135px;
         font-size: 13px;
         line-height: 16px;
         margin-left: 74px;

@@ -2,6 +2,7 @@ import React from "react";
 import style from './footer.module.css'
 import mouse from './mouse.svg'
 import arrow from './arrow.svg'
+import tochki from './tochki.svg'
 
 export default function Footer(){
     return(
@@ -21,8 +22,9 @@ export default function Footer(){
                             <p>Планшеты</p>
                             <p>Дроны</p>
                             <p>Игрушки</p>
-                            <img src={arrow} className={style.arrow}/>
+                            <img src={tochki}/>
                         </div>
+                        <img src={arrow} className={style.arrow}/>
                         <h1 className={style.h1}>+38 (044) 784-23-85</h1>
                         <button className={style.btn}>Заказать звонок</button>
                     </div>

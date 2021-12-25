@@ -1,5 +1,6 @@
 .first{
     display: flex;
+    justify-content: space-between;
 }
 .h1{
     color: #2A2D46;
@@ -19,8 +20,9 @@
     color: #FFFFFF;
 }
 .jurnal{
-    background: blue;
-    padding-right: -215px;
+    background: linear-gradient(0deg, rgba(49, 69, 255, 0.81), rgba(49, 69, 255, 0.81));
+    margin-right: 0px;
+   
 }
 .copter{
     

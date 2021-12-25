@@ -1,22 +1,16 @@
-.second{
-    margin-top: 130px;
+.fourth{
+    margin-top: 99px;
 }
-
-.second header,.tovary,.cena{
-    display: flex;
-    align-items: center;
-}
-.headH1{
+.h1{
     font-style: normal;
     color: #2A2D46;
+    margin-bottom: 53px;
 }
 
-.headP{
-    font-style: normal;
-    color: #2A2D46;
-}
 .tovary{
-    margin-top: 50px;
+    display: flex;
+    margin-bottom: 30px;
+
 }
 .tovar{
     background: #ffffff;
@@ -53,17 +47,9 @@
     color: #3145FF;
 }
 @media (min-width: 1200px){
-    .headH1{
-        margin-right: 94px;
+    .h1{
         font-weight: 900;
         font-size: 25px;
-        line-height: 196.19%;
-    }
-    .headP{
-        padding-top: 12px;
-        margin-right: 33px;
-        font-weight: normal;
-        font-size: 13px;
         line-height: 196.19%;
     }
     .tovar,.tovar1{
