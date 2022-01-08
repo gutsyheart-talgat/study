@@ -6,7 +6,9 @@ export default function Fourth (){
     return (
         <div className={style.fourth}>
             <h1 className={style.h1}>Каталог товаров</h1>
-            <Tovary className={style.thing}/>
+            <div className={style.thing}>
+                <Tovary/>
+            </div>
             <Tovary/>
         </div>
     )

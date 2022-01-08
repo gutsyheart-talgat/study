@@ -1,15 +1,34 @@
-import React from "react";
-import style from './fourth.module.css'
+import React, { Component }  from 'react'
+import Slider from "react-slick";
+import style from './secondSlide.module.css'
 import iphone from './iphone.png'
 import dron from './dron.png'
 import ipad from './ipad.png'
 import watch from './watch.png'
 import arrow from './arrow.svg'
 
-
-export default function Tovary(){
-    return(
-        <div className={style.tovary}>
+export default class SimpleSlider extends Component {
+    render() {
+      const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      };
+      return (
+        <div className={style.secondSlide}>
+            <header className={style.head}>
+                <h1 className={style.headH1}>Горячие поступления</h1>
+                <div className={style.vkladki}>
+                    <p className={style.headP}>Все</p>
+                    <p className={style.headP}>Телефоны</p>
+                    <p className={style.headP}>Планшеты</p>
+                    <p className={style.headP}>Дроны</p>
+                    <p className={style.headP}>Игрушки</p>
+                </div>
+            </header>
+            <Slider {...settings}>
                 <div className={style.tovar}>
                     <h1 className={style.tovarName}>iPhone 10</h1>
                     <div className={style.img}><img src={iphone}/></div>
@@ -125,7 +144,8 @@ export default function Tovary(){
                         <img className={style.arrow} src={arrow}/>
                     </div>
                 </div>
-                
-            </div>
-    )
-}
+          </Slider>
+        </div>
+      );
+    }
+  }

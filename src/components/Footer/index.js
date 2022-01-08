@@ -25,6 +25,7 @@ export default function Footer(){
                             <img src={tochki}/>
                         </div>
                         <img src={arrow} className={style.arrow}/>
+                        <img src={arrow} className={style.arrow1}/>
                         <h1 className={style.h1}>+38 (044) 784-23-85</h1>
                         <button className={style.btn}>Заказать звонок</button>
                     </div>

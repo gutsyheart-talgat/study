@@ -1,6 +1,4 @@
-.fifth{
-    margin-top: 101px;
-}
+
 .h1{
     font-style: normal;
     color: #2A2D46;
@@ -11,6 +9,7 @@
 }
 .info{
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .chislo{
     font-style: normal;
@@ -20,7 +19,65 @@
     font-style: normal;
     color: #2A2D46;
 }
+@media (max-width: 576px){
+    .fifth{
+        margin-top: 61px;
+    }
+    .h1{
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 142.19%;
+        margin-bottom: 37px;
+        width: 290px;
+    }
+    .triger{
+        display: block;
+        width: 270px;
+    }
+    .chislo{
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 196.19%;
+        margin-right: 24px;
+        margin-bottom: 0;
+    }
+    .name{
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 196.19%;
+        margin-top: 0;
+    }
+}
+@media (min-width: 768px){
+    .fifth{
+        margin-top: 110px;
+    }
+    .h1{
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 196.19%;
+        margin-bottom: 37px;
+    }
+    .triger{
+        width: 270px;
+    }
+    .chislo{
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 196.19%;
+        margin-right: 24px;
+    }
+    .name{
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 196.19%;
+    }
+
+}
 @media (min-width: 1200px){
+    .fifth{
+        margin-top: 101px;
+    }
     .h1{
         font-weight: 900;
         font-size: 25px;

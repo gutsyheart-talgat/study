@@ -2,16 +2,39 @@
   padding: 0px 15px;
   margin: 0 auto;
 }
-
+.appBack{
+  overflow: hidden;
+}
+@media (max-width: 576px) {
+  .Third,.Second{
+    display: none;
+  }
+  .third-slider,.secondSlide{
+    display: block;
+  }
+  
+}
 @media (min-width: 576px) {
   .container {
       width: 546px;
   }
+  .Third,.Second{
+    display: none;
+  }
+  .third-slider,.secondSlide{
+    display: block;
+  }
 }
 
 @media (min-width: 768px) {
+  .Third,.secondSlide{
+    display: none;
+  }
   .container {
       width: 738px;
+  }
+  .third-slider,.Second{
+    display: block;
   }
 }
 
@@ -25,5 +48,11 @@
   
   .container {
       width: 1170px;
+  }
+  .third-slider,.secondSlide{
+    display: none;
+  }
+  .Third,.Second{
+    display: block;
   }
 }

@@ -3,7 +3,7 @@
     background: #343A62;
     margin-top: 63px;
 }
-.main,.logo,.menu{
+.logo,.menu{
     display: flex;
     align-items: center;
 }
@@ -33,15 +33,141 @@
     background: none;
     color: #EB2D66;
 }
+.btn:hover{
+    background:#EB2D66;
+    color: #ffffff;
+}
+@media (max-width: 576px){
+    .main{
+        position: relative;
+        display: block;
+        text-align: center;
+    }
+    .footer{
+        height: 330px;
+    }
+    
+    .logo{
+        width: 218px;
+        padding-top: 64px;
+        margin-bottom: 37px;
+        padding-left: 33px;
+    }
+    .name{
+        text-align: left;
+        margin-left: 13px;
+    }
+    .name h1{
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .name p{
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .menu{
+        margin-bottom: 31px;
+    }
+    .menu p{
+        font-size: 12px;
+        line-height: 15px;
+        margin-right: 8px;
+    }
+    .arrow{
+        display: none;
+    }
+    .arrow1{
+        position: absolute;
+        top: 310px;
+        left: 150px;
+    }
+    .h1{
+        width: 135px;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 16px;
+        margin-bottom: 34px;
+        margin-right: 0px;
+        margin-left: 72px;
+    }
+    .btn{
+        width: 130px;
+        height: 30px;
+    }
+
+
+}
+@media (min-width: 768px){
+    .main{
+        position: relative;
+    }
+    .footer{
+        height: 330px;
+    }
+    
+    .logo{
+        width: 218px;
+        padding-top: 64px;
+        margin-bottom: 37px;
+    }
+    .name{
+        margin-left: 13px;
+    }
+    .name h1{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .name p{
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .menu{
+        margin-bottom: 31px;
+    }
+    .menu p{
+        font-size: 12px;
+        line-height: 15px;
+        margin-right: 29px;
+    }
+    .arrow{
+        display: none;
+    }
+    .arrow1{
+        position: absolute;
+        top: 248px;
+        right: 57px;
+    }
+    .h1{
+        width: 135px;
+        font-size: 13px;
+        line-height: 16px;
+        margin-bottom: 34px;
+    }
+    .btn{
+        width: 130px;
+        height: 30px;
+        
+    }
+
+
+}
 @media (min-width: 1200px){
     .footer{
         height: 310px;
+    }
+    .main{
+        display: flex;
+        align-items: center;
     }
     .mar{
         padding-top: 127px;
     }
     .logo{
         width: 218px;
+        padding-top: 0;
+        margin-bottom: 0;
         margin-right: 82px;
     }
     .mouse{
@@ -57,6 +183,7 @@
     }
     .menu{
         width: 366px;
+        margin-bottom: 0;
     }
     .menu p{
         font-size: 12px;
@@ -64,13 +191,18 @@
         margin-right: 29px;
     }
     .arrow{
+        display: block;
         margin-left: 62px;
+    }
+    .arrow1{
+        display: none;
     }
     .h1{
         width: 135px;
         font-size: 13px;
         line-height: 16px;
         margin-left: 74px;
+        margin-bottom: 0;
     }
     .btn{
         width: 130px;
