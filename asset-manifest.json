@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.36042a49.css",
+    "main.js": "/static/js/main.d2c2e259.js",
+    "static/media/left.png": "/static/media/left.ece6f8672da42d4de2c6.png",
+    "static/media/jurnal.png": "/static/media/jurnal.ea0c4d75438322dd0773.png",
+    "static/media/right.png": "/static/media/right.c888242560f4379995f5.png",
+    "static/media/copter.svg": "/static/media/copter.53553f7d7423efce585b03fb2bc098a5.svg",
+    "static/media/iphone.png": "/static/media/iphone.8d542ddec5317a4854cd.png",
+    "static/media/ipad.png": "/static/media/ipad.1a8eb10ed1ec0bf977d5.png",
+    "static/media/watch.png": "/static/media/watch.c6895c6d6a94dc51fac2.png",
+    "static/media/dron.png": "/static/media/dron.e0f444c3317935b25e57.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/supermarket.svg": "/static/media/supermarket.0e6d64b15300066913b3a189bca95723.svg",
+    "static/media/mouse.svg": "/static/media/mouse.df38c23115ba06ba6c795b588e86e7b1.svg",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "static/media/gamburger.svg": "/static/media/gamburger.225ed96f51fe15b60b869f261893c588.svg",
+    "static/media/tochki.svg": "/static/media/tochki.574ac6fdaf87ebb253ccf1f1ade7dc6d.svg",
+    "static/media/arrow.svg": "/static/media/arrow.ecbc87e4040093c92d81fd3cd301bf6d.svg",
+    "main.36042a49.css.map": "/static/css/main.36042a49.css.map",
+    "main.d2c2e259.js.map": "/static/js/main.d2c2e259.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36042a49.css",
+    "static/js/main.d2c2e259.js"
+  ]
+}
