@@ -121,24 +121,35 @@
 
 }
 @media (min-width: 576px){
-    .fourth{
-        margin-top: 60px;
+    .secondSlide{
+        margin-top: 576px;
+        margin-bottom: 134px;
     }
-    .h1{
+    .head{
+        display: inline-block;
+        flex-wrap: wrap;
+    }
+    .headH1{
         font-weight: 900;
         font-size: 20px;
         line-height: 142.19%;
-        margin-bottom: 52px;
+        margin-bottom: 33px;
     }
-    .thing{
-        display: none;
+    .headP{
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 196.19%;
+        margin-right: 24px;
+    }
+    .vkladki{
+        display: flex;
+        margin-bottom: 41px;
     }
     .tovary{
         display: block;
     }
     .tovar,.tovar1{
-        height: 487px;
-        width: 290px;   
+        height: 487px;   
         margin-bottom: 30px;
         position: relative;
     }

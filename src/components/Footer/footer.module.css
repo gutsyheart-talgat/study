@@ -93,6 +93,62 @@
         margin-left: 72px;
     }
     .btn{
+        position: absolute;
+        top: 233px;
+        left: 72px;
+        width: 130px;
+        height: 30px;
+    }
+
+
+}
+@media (min-width: 576px){
+    .main{
+        position: relative;
+    }
+    .footer{
+        height: 330px;
+    }
+    
+    .logo{
+        width: 218px;
+        padding-top: 64px;
+        margin-bottom: 37px;
+    }
+    .name{
+        margin-left: 13px;
+    }
+    .name h1{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .name p{
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .menu{
+        margin-bottom: 31px;
+    }
+    .menu p{
+        font-size: 12px;
+        line-height: 15px;
+        margin-right: 29px;
+    }
+    .arrow{
+        display: none;
+    }
+    .arrow1{
+        position: absolute;
+        top: 248px;
+        right: 57px;
+    }
+    .h1{
+        width: 135px;
+        font-size: 13px;
+        line-height: 16px;
+        margin-bottom: 34px;
+    }
+    .btn{
         width: 130px;
         height: 30px;
     }
@@ -148,7 +204,6 @@
     .btn{
         width: 130px;
         height: 30px;
-        
     }
 
 

@@ -1,10 +1,8 @@
 .left{
-    background: url('./left.png') center;
-    box-shadow: 0px 15px 50px rgba(45, 47, 94, 0.3);
+    background: url('./left.png') center/cover;
 }
 .right{
-    background:  url('./right.png')center;
-    box-shadow: 0px 15px 50px rgba(45, 47, 94, 0.3);
+    background:  url('./right.png')center/cover;
 }
 .square{
     background: #FFFFFF;
@@ -20,7 +18,6 @@
 
 @media (max-width: 576px){
     .left,.right{
-        width: 262px;
         height: 412px;
         margin-right: 30px;
         position: relative;
@@ -56,6 +53,45 @@
         line-height: 135.69%;
     }
 }
+@media (min-width: 576px){
+    .left,.right{
+        height: 412px;
+        margin-right: 30px;
+        position: relative;
+    }
+    .square{
+        width: 19px;
+        height: 19px;
+        position: absolute;
+        top: 213px;
+        left: 18px;
+    }
+    .plus{
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        top: 20px;
+        right: 16px;
+    }
+    .cont{
+        margin-top: 243px;
+        margin-left: 48px;
+        
+    }
+    .h1{
+        font-weight: 900;
+        font-size: 19px;
+        line-height: 120.69%;
+        margin-bottom: 14px;
+        width: 202px;
+    }
+    .p{
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 135.69%;
+        width: 172px;
+    }
+}
 @media (min-width: 768px){
     .left,.right{
         height: 425px;
@@ -64,6 +100,7 @@
     .cont{
         margin-top: 257px;
         margin-left: 87px;
+        width: 327px;
     }
     .h1{
         font-weight: 900;

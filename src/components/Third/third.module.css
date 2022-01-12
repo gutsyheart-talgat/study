@@ -2,11 +2,11 @@
     display: flex;
 }
 .left{
-    background: url('./left.png') center;
+    background: url("./left.png") center/cover;
     box-shadow: 0px 15px 50px rgba(45, 47, 94, 0.3);
 }
 .right{
-    background:  url('./right.png')center;
+    background:  url('./right.png')center/cover;
     box-shadow: 0px 15px 50px rgba(45, 47, 94, 0.3);
 }
 .h1{

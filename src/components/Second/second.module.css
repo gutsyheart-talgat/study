@@ -15,6 +15,7 @@
 }
 .tovar,.tovar1{
     background: #ffffff;
+    box-shadow: 0px 15px 50px rgba(67, 76, 109, 0.08);
 }
 .tovarName{
     font-style: normal;
@@ -42,6 +43,33 @@
     color: #3145FF;
 }
 @media (max-width: 576px) {
+    .second{
+        margin-top: 576px;
+        margin-bottom: 134px;
+    }
+    .head{
+        display: inline-block;
+        flex-wrap: wrap;
+    }
+    .headH1{
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 142.19%;
+        margin-bottom: 33px;
+    }
+    .headP{
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 196.19%;
+        margin-right: 24px;
+    }
+    .vkladki{
+        display: flex;
+        margin-bottom: 41px;
+    }
+
+}
+@media (min-width: 576px) {
     .second{
         margin-top: 576px;
         margin-bottom: 134px;

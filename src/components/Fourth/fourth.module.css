@@ -114,23 +114,23 @@
 }
 @media (min-width: 576px){
     .fourth{
-        margin-top: 60px;
+        margin-top: 97px;
     }
     .h1{
         font-weight: 900;
-        font-size: 20px;
-        line-height: 142.19%;
-        margin-bottom: 52px;
+        font-size: 25px;
+        line-height: 196.19%;
     }
     .thing{
         display: none;
     }
     .tovary{
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     .tovar,.tovar1{
         height: 487px;
-        width: 290px;   
+        width: 354px;   
         margin-bottom: 30px;
         position: relative;
     }
@@ -138,16 +138,16 @@
         font-weight: 900;
         font-size: 17px;
         line-height: 196.19%;
-        margin-left: 34px;
-        margin-top: 22px;
         margin-bottom: 20px;
+        margin-left: 41.96px;
+        margin-top: 22px;
     }
     .img{
-        margin-left: 41px;
+        margin-left: 51px;
     }
     .Information{
-        margin-top: 33px;
-        margin-left: 34px;
+        margin-top: 32px;
+        margin-left: 41.96px;
     }
     .Info,.tovInfo{
         font-weight: normal;
@@ -157,7 +157,7 @@
     .cena{
         position: absolute;
         bottom: 29px;
-        left: 34px;
+        left: 41.96px;
     }
     .newCena{
         font-weight: 900;
@@ -169,14 +169,14 @@
         font-size: 11px;
         line-height: 196.19%;
         position: absolute;
-        left: 104px;
+        left: 127px;
         bottom: 14px;
-        width: 67.67px;
+        width: 82.6px;
     }
     .arrow{
         position: absolute;
         bottom: 6px;
-        left: 212px;
+        left: 255px;
     }
 
 }

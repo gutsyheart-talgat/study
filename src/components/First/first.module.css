@@ -16,7 +16,7 @@
     color: #FFFFFF;
 }
 .jurnal{
-    background: url("./jurnal.png")center;
+    background: url("./jurnal.png")center/cover;
     display: flex;
 }
 .name,.desc,.price{
@@ -105,78 +105,77 @@
 }
 @media (min-width: 576px) {
   .first{
-    margin-top: 46px;
+    margin-top: 97px;
     position: relative;
   }
   .h1{
-    width: 290px;
-    font-weight: 900;
-    font-size: 25px;
-    line-height: 30px;
-    margin-bottom: 24px;
+    width: 738px;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 26px;
   }
   .p{
-    width: 290px;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 148.9%;
-    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    width: 738px;
   }
   .btn{
+    box-shadow: 0px 7px 35px rgba(235, 45, 102, 0.35);
     width: 244px;
     height: 57px;
     font-weight: 900;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 148.9%;
     margin-bottom: 0px;
   }
   .jurnal{
-    width: 290px;
-    height: 397px;
+    width: 738px;
+    height: 444px;
     position: absolute;
-    top: 346px;
-  }
-  .copter{
-    width: 265px;
-    height: 144px;
-    position: absolute;
-    top: 31px;
-    left: 8px;
+    top: 355px;
   }
   .white{
     width: 9px;
     height: 9px;
     background: #FFFFFF;
     position: absolute;
-    top: 197px;
-    left: 5px;
+    top: 253px;
+    left: 512px;
   }
   .thing{
-    margin-top: 208px;
-    margin-left: 23px;
+    margin-top: 264px;
+    margin-left: 530px;
   }
   .name{
     font-weight: 900;
     font-size: 15px;
     line-height: 18px;
     margin-bottom: 10px;
-  }
+      }
   .desc{
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
-    width: 256px;
   }
   .price{
     font-weight: bold;
     font-size: 13px;
     line-height: 16px;
   }
+  .copter{
+    width: 687px;
+    height: 374px;
+    position: absolute;
+     top: 31px;
+     left: 8px;
+   }
   .jurBack{
     position: absolute;
-    width: 318px;
-    height: 464px;
-    top: 314px;
+    top: 323px;
+    left: -14px;
+    width: 767px;
+    height: 508px;
   }
 }
 
