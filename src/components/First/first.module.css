@@ -33,14 +33,12 @@
       position: relative;
     }
     .h1{
-      width: 290px;
       font-weight: 900;
       font-size: 25px;
       line-height: 30px;
       margin-bottom: 24px;
     }
     .p{
-      width: 290px;
       font-weight: normal;
       font-size: 14px;
       line-height: 148.9%;
@@ -59,6 +57,7 @@
       height: 397px;
       position: absolute;
       top: 346px;
+      left: auto;
     }
     .copter{
       width: 265px;
@@ -101,6 +100,7 @@
       width: 318px;
       height: 464px;
       top: 314px;
+      left: 0px;
     }
 }
 @media (min-width: 576px) {

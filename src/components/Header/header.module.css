@@ -79,7 +79,7 @@
     .buy{
         position: absolute;
         top: 62px;
-        left: 167px;
+        right: 0px;
     }
     .marketBtn{
         margin-right: 15px;
@@ -93,7 +93,7 @@
     .burgerBtn{
         position: absolute;
         top: 7px;
-        left: 263px;
+        right: 0px;
     }
   }
 @media (min-width: 576px) {
