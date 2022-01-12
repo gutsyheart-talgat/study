@@ -58,7 +58,9 @@
         display: none;
     }
     .tovary{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .tovar,.tovar1{
         height: 487px;

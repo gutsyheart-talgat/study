@@ -34,12 +34,12 @@
         width: 25px;
         height: 25px;
         top: 20px;
-        left: 221px;
+        right: 16px;
     }
     .cont{
         margin-top: 243px;
         margin-left: 48px;
-        width: 202px;
+        
     }
     .h1{
         font-weight: 900;
@@ -83,13 +83,13 @@
         font-size: 19px;
         line-height: 120.69%;
         margin-bottom: 14px;
-        width: 202px;
+        
     }
     .p{
         font-weight: normal;
         font-size: 13px;
         line-height: 135.69%;
-        width: 172px;
+        
     }
 }
 @media (min-width: 768px){
@@ -100,7 +100,7 @@
     .cont{
         margin-top: 257px;
         margin-left: 87px;
-        width: 327px;
+        
     }
     .h1{
         font-weight: 900;
