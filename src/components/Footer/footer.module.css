@@ -40,7 +40,10 @@
 @media (max-width: 576px){
     .main{
         position: relative;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
     }
     .footer{
@@ -51,7 +54,7 @@
         width: 218px;
         padding-top: 64px;
         margin-bottom: 37px;
-        padding-left: 33px;
+        
     }
     .name{
         text-align: left;
@@ -80,8 +83,7 @@
     }
     .arrow1{
         position: absolute;
-        top: 310px;
-        left: 150px;
+        top: 300px;
     }
     .h1{
         width: 135px;
@@ -90,12 +92,9 @@
         line-height: 16px;
         margin-bottom: 34px;
         margin-right: 0px;
-        margin-left: 72px;
+        
     }
     .btn{
-        position: absolute;
-        top: 233px;
-        left: 72px;
         width: 130px;
         height: 30px;
     }

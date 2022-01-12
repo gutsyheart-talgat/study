@@ -83,7 +83,9 @@
         margin-bottom: 20px;
     }
     .img{
-        margin-left: 41px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
     }
     .Information{
         margin-top: 33px;
@@ -96,6 +98,7 @@
     }
     .cena{
         position: absolute;
+        width: 90%;
         bottom: 29px;
         left: 34px;
     }
@@ -115,8 +118,8 @@
     }
     .arrow{
         position: absolute;
-        bottom: 6px;
-        left: 212px;
+        top: 6px;
+        right: 35px;
     }
 
 }
