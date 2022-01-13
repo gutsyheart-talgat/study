@@ -6,6 +6,7 @@ import First from './components/First'
 import Footer from './components/Footer'
 import Second from './components/Second'
 import SecondSlide from './components/SecondSlide'
+import SecondSlides from './components/SecondSlides'
 import Third from './components/Third'
 import ThirdSlide from './components/ThirdSlide'
 import Fourth from './components/Fourth'
@@ -23,6 +24,9 @@ function App() {
           </div>
           <div className="secondSlide">
             <SecondSlide/>
+          </div>
+          <div className="secondSlides">
+            <SecondSlides/>
           </div>
           <div className='Third'>
             <Third/>

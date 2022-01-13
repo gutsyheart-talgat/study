@@ -58,25 +58,26 @@
       position: absolute;
       top: 346px;
       left: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: left;
     }
     .copter{
       width: 265px;
       height: 144px;
-      position: absolute;
-      top: 31px;
-      margin-left: auto;
+      margin-top: 31px;
+      margin-bottom: 33px;
     }
     .white{
       width: 9px;
       height: 9px;
       background: #FFFFFF;
-      position: absolute;
-      top: 197px;
-      left: 5px;
+      margin-left: -280px;
     }
-    .thing{
-      margin-top: 208px;
-      margin-left: 23px;
+    .frame{
+      margin-top: 47px;
+      margin-left: -104px;
     }
     .name{
       font-weight: 900;
@@ -109,50 +110,50 @@
     position: relative;
   }
   .h1{
-    width: 738px;
-    font-size: 36px;
-    line-height: 44px;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
     margin-bottom: 26px;
   }
   .p{
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 24px;
-    width: 738px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 148.9%;
+    margin-bottom: 30px;
   }
   .btn{
     box-shadow: 0px 7px 35px rgba(235, 45, 102, 0.35);
     width: 244px;
     height: 57px;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 148.9%;
     margin-bottom: 0px;
   }
   .jurnal{
-    width: 738px;
-    height: 444px;
+    width: 546px;
+    height: 329px;
     position: absolute;
     top: 355px;
   }
   .white{
-    width: 9px;
-    height: 9px;
+    width: 6.76px;
+    height: 6.76px;
     background: #FFFFFF;
     position: absolute;
-    top: 253px;
-    left: 512px;
+    top: 190px;
+    left: 351px;
   }
   .thing{
-    margin-top: 264px;
-    margin-left: 530px;
+    margin-top: 198px;
+    margin-left: 365px;
   }
   .name{
     font-weight: 900;
     font-size: 15px;
     line-height: 18px;
     margin-bottom: 10px;
-      }
+    }
   .desc{
     font-weight: normal;
     font-size: 12px;
@@ -164,18 +165,23 @@
     line-height: 16px;
   }
   .copter{
-    width: 687px;
-    height: 374px;
+    width: 471px;
+    height: 257px;
     position: absolute;
-     top: 31px;
-     left: 8px;
+    top: 23px;
+    left: 0px;
    }
   .jurBack{
     position: absolute;
     top: 323px;
     left: -14px;
-    width: 767px;
-    height: 508px;
+    width: 576px;
+    height: 381.5px;
+  }
+  .frame{
+    position: absolute;
+    top: 296px;
+    left: 45px;
   }
 }
 
@@ -252,6 +258,11 @@
     left: -14px;
     width: 767px;
     height: 508px;
+  }
+  .frame{
+    position: absolute;
+    top: 385px;
+    left: 45px;
   }
 }
 

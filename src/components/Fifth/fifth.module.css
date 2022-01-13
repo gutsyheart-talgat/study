@@ -50,17 +50,17 @@
 }
 @media (min-width: 576px){
     .fifth{
-        margin-top: 61px;
+        margin-top: 60px;
     }
     .h1{
         font-weight: 900;
         font-size: 20px;
         line-height: 142.19%;
-        margin-bottom: 37px;
+        margin-bottom: 25px;
         width: 290px;
     }
     .triger{
-        display: block;
+        display: flex;
         width: 270px;
     }
     .chislo{

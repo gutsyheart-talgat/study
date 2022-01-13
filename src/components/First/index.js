@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './first.module.css'
 import copter from './copter.svg'
+import Frame from './Frame.png'
 
 export default function First(){
     return(
@@ -28,6 +29,7 @@ export default function First(){
                     <br/>
                     <h1 className={style.price}>3 890 грн.</h1>
                 </div>
+                <img src={Frame} className={style.frame}/>
             </div>
             <div className={style.jurBack}></div>
         </div>

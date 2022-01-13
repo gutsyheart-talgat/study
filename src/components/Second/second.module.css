@@ -15,7 +15,7 @@
 }
 .tovar,.tovar1{
     background: #ffffff;
-    box-shadow: 0px 15px 50px rgba(67, 76, 109, 0.08);
+    
 }
 .tovarName{
     font-style: normal;
@@ -42,60 +42,6 @@
     text-decoration-line: line-through;
     color: #3145FF;
 }
-@media (max-width: 576px) {
-    .second{
-        margin-top: 576px;
-        margin-bottom: 134px;
-    }
-    .head{
-        display: inline-block;
-        flex-wrap: wrap;
-    }
-    .headH1{
-        font-weight: 900;
-        font-size: 20px;
-        line-height: 142.19%;
-        margin-bottom: 33px;
-    }
-    .headP{
-        font-weight: normal;
-        font-size: 13px;
-        line-height: 196.19%;
-        margin-right: 24px;
-    }
-    .vkladki{
-        display: flex;
-        margin-bottom: 41px;
-    }
-
-}
-@media (min-width: 576px) {
-    .second{
-        margin-top: 576px;
-        margin-bottom: 134px;
-    }
-    .head{
-        display: inline-block;
-        flex-wrap: wrap;
-    }
-    .headH1{
-        font-weight: 900;
-        font-size: 20px;
-        line-height: 142.19%;
-        margin-bottom: 33px;
-    }
-    .headP{
-        font-weight: normal;
-        font-size: 13px;
-        line-height: 196.19%;
-        margin-right: 24px;
-    }
-    .vkladki{
-        display: flex;
-        margin-bottom: 41px;
-    }
-
-}
 @media (min-width: 768px){
     .second{
         margin-top: 680px;
@@ -104,17 +50,17 @@
     .head{
         margin: 0;
         margin-bottom: 50px;
+        display: flex;
     }
     .headH1{
-        width: 306px;
         font-weight: 900;
         font-size: 25px;
         line-height: 196.19%;
         margin-right: 62px;
     }
     .vkladki{
-        width: 371px;
         display: flex;
+        width: 371px;
     }
     .headP{
         font-weight: normal;
@@ -124,7 +70,6 @@
         margin-right: 24px;
     }
     .tovar,.tovar1{
-        padding: 22px 30px 0 32px;
         height: 487px;
         position: relative;
     }
@@ -132,12 +77,14 @@
         font-weight: 900;
         font-size: 17px;
         line-height: 196.19%;
-        margin-bottom: 20px;
-        padding-top: 22px;
+        margin: 22px 0px 20px 32px;
+    }
+    .img{
+        margin-left: 39px;
     }
     .Information{
         margin-top: 32px;
-        
+        margin-left: 32px;
     }
     .Info,.tovInfo{
         font-weight: normal;
@@ -147,6 +94,7 @@
     .cena{
         position: absolute;
         bottom: 29px;
+        left: 32px;
     }
     .newCena{
         margin-right: 4px;

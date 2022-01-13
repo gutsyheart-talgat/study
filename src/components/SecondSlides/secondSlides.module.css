@@ -1,0 +1,113 @@
+.cena{
+    display: flex;
+    align-items: center;
+}
+.headH1{
+    font-style: normal;
+    color: #2A2D46;
+}
+.headP{
+    font-style: normal;
+    color: #2A2D46;
+}
+.tovary{
+    margin-top: 50px;
+}
+.tovar,.tovar1{
+    background: #ffffff;
+}
+.tovarName{
+    font-style: normal;
+    color: #2A2D46; 
+}
+.tovarInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Info{
+    font-style: normal;
+    color: #2C3BA0;
+}
+.tovInfo{
+    font-style: normal;
+    color: #646986;
+}
+.newCena{
+    font-style: normal;
+    color: #3145FF;
+}
+.oldCena{
+    font-style: normal;
+    text-decoration-line: line-through;
+    color: #3145FF;
+}
+@media (min-width: 576px){
+    .secondSlides{
+        margin-top: 494px;
+        margin-bottom: 133px;
+    }
+    .headH1{
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 196.19%;
+        margin-bottom: 30px;
+    }
+    .vkladki{
+        display: flex;
+        margin-bottom: 30px;
+    }
+    .headP{
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 196.19%;
+        margin-right: 24px;
+    }
+    .tovar,.tovar1{
+        height: 487px;
+        position: relative;
+    }
+    .tovarName{
+        font-weight: 900;
+        font-size: 17px;
+        line-height: 196.19%;
+        margin: 22px 0px 20px 32px;
+    }
+    .img{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .Information{
+        margin-left: 32px;
+        margin-top: 33px;
+    }
+    .Info,.tovInfo{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 154.19%;
+    }
+    .cena{
+        position: absolute;
+        bottom: 29px;
+        left: 32px;
+        width: 88%;
+    }
+    .newCena{
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 196.19%;
+    }
+    .oldCena{
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 196.19%;
+        position: absolute;
+        left: 107px;
+        bottom: 14px;
+    }
+    .arrow{
+        position: absolute;
+        right: 30px;
+        bottom: 6px;
+    }
+}

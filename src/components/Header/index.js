@@ -33,7 +33,6 @@ export default function Header(active,setActive){
             </div>
             <div className={style.burger}>
                 <button className={style.burgerBtn} onClick={()=>setActive(!active)}><img src={burger}/></button>
-                
             </div>
             
         </div>
