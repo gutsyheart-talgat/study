@@ -157,7 +157,7 @@
     }
     .cena{
         position: absolute;
-        margin-left: 32px;
+        left: 32px;
         bottom: 29px;
     }
     .newCena{
