@@ -1,19 +1,19 @@
 .third{
     display: flex;
 }
-.left{
+.third-left{
     background: url("./left.png") center/cover;
     box-shadow: 0px 15px 50px rgba(45, 47, 94, 0.3);
 }
-.right{
+.third-right{
     background:  url('./right.png')center/cover;
     box-shadow: 0px 15px 50px rgba(45, 47, 94, 0.3);
 }
-.h1{
+.third-h1{
     font-style: normal;
     color: #FFFFFF;
 }
-.p{
+.third-p{
     font-style: normal;
     color: #FFFFFF;
 }
@@ -22,15 +22,15 @@
     .third{
         display: flex;
     }
-    .left,.right{
+    .third-left,.third-right{
         width: 570px;
         height: 425px;
         position: relative;
     }
-    .left{
+    .third-left{
         margin-right: 30px;
     }
-    .square{
+    .third-square{
         width: 23px;
         height: 23px;
         background: #FFFFFF;
@@ -38,24 +38,24 @@
         top: 227px;
         left: 49px;
     }
-    .plus{
+    .third-plus{
         position: absolute;
         width: 25px;
         height: 25px;
         top: 30px;
         left: 512px;
     }
-    .cont{
+    .third-cont{
         margin-top: 257px;
         margin-left: 87px;
     }
-    .h1{
+    .third-h1{
         font-weight: 900;
         font-size: 27px;
         line-height: 120.69%;
         margin-bottom: 5px;
     }
-    .p{
+    .third-p{
         font-weight: normal;
         font-size: 16px;
         line-height: 135.69%;

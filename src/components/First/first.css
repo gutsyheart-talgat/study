@@ -1,29 +1,29 @@
 
-.h1{
+.first-h1{
     color: #2A2D46;
     font-style: normal;
     font-weight: 900;
 }
-.p{
+.first-p{
     font-style: normal;
     font-weight: normal;
     color: #2A2D46;
 }
-.btn{
+.first-btn{
     background:  #EB2D66;
     border: none;
     font-style: normal;
     color: #FFFFFF;
 }
-.jurnal{
+.first-jurnal{
     background: url("./jurnal.png")center/cover;
     display: flex;
 }
-.name,.desc,.price{
+.first-name,.first-desc,.first-price{
   font-style: normal;
   color: #FFFFFF;
 }
-.jurBack{
+.first-jurBack{
   background: rgba(49, 69, 255, 0.06);
 }
 
@@ -32,19 +32,19 @@
       margin-top: 46px;
       position: relative;
     }
-    .h1{
+    .first-h1{
       font-weight: 900;
       font-size: 25px;
       line-height: 30px;
       margin-bottom: 24px;
     }
-    .p{
+    .first-p{
       font-weight: normal;
       font-size: 14px;
       line-height: 148.9%;
       margin-bottom: 10px;
     }
-    .btn{
+    .first-btn{
       width: 244px;
       height: 57px;
       font-weight: 900;
@@ -52,7 +52,7 @@
       line-height: 148.9%;
       margin-bottom: 0px;
     }
-    .jurnal{
+    .first-jurnal{
       width: 100%;
       height: 397px;
       position: absolute;
@@ -63,40 +63,40 @@
       align-items: center;
       text-align: left;
     }
-    .copter{
+    .first-copter{
       width: 265px;
       height: 144px;
       margin-top: 31px;
       margin-bottom: 33px;
     }
-    .white{
+    .first-white{
       width: 9px;
       height: 9px;
       background: #FFFFFF;
       margin-left: -280px;
     }
-    .frame{
+    .first-frame{
       margin-top: 47px;
       margin-left: -104px;
     }
-    .name{
+    .first-name{
       font-weight: 900;
       font-size: 15px;
       line-height: 18px;
       margin-bottom: 10px;
     }
-    .desc{
+    .first-desc{
       font-weight: normal;
       font-size: 12px;
       line-height: 15px;
       width: 256px;
     }
-    .price{
+    .first-price{
       font-weight: bold;
       font-size: 13px;
       line-height: 16px;
     }
-    .jurBack{
+    .first-jurBack{
       position: absolute;
       width: 110%;
       height: 464px;
@@ -109,19 +109,19 @@
     margin-top: 97px;
     position: relative;
   }
-  .h1{
+  .first-h1{
     font-weight: 900;
     font-size: 30px;
     line-height: 37px;
     margin-bottom: 26px;
   }
-  .p{
+  .first-p{
     font-weight: normal;
     font-size: 14px;
     line-height: 148.9%;
     margin-bottom: 30px;
   }
-  .btn{
+  .first-btn{
     box-shadow: 0px 7px 35px rgba(235, 45, 102, 0.35);
     width: 244px;
     height: 57px;
@@ -130,13 +130,13 @@
     line-height: 148.9%;
     margin-bottom: 0px;
   }
-  .jurnal{
+  .first-jurnal{
     width: 546px;
     height: 329px;
     position: absolute;
     top: 355px;
   }
-  .white{
+  .first-white{
     width: 6.76px;
     height: 6.76px;
     background: #FFFFFF;
@@ -144,41 +144,41 @@
     top: 190px;
     left: 351px;
   }
-  .thing{
+  .first-thing{
     margin-top: 198px;
     margin-left: 365px;
   }
-  .name{
+  .first-name{
     font-weight: 900;
     font-size: 15px;
     line-height: 18px;
     margin-bottom: 10px;
     }
-  .desc{
+  .first-desc{
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
   }
-  .price{
+  .first-price{
     font-weight: bold;
     font-size: 13px;
     line-height: 16px;
   }
-  .copter{
+  .first-copter{
     width: 471px;
     height: 257px;
     position: absolute;
     top: 23px;
     left: 0px;
    }
-  .jurBack{
+  .first-jurBack{
     position: absolute;
     top: 323px;
     left: -14px;
     width: 576px;
     height: 381.5px;
   }
-  .frame{
+  .first-frame{
     position: absolute;
     top: 296px;
     left: 45px;
@@ -190,19 +190,19 @@
     margin-top: 97px;
     position: relative;
   }
-  .h1{
+  .first-h1{
     width: 738px;
     font-size: 36px;
     line-height: 44px;
     margin-bottom: 26px;
   }
-  .p{
+  .first-p{
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 24px;
     width: 738px;
   }
-  .btn{
+  .first-btn{
     box-shadow: 0px 7px 35px rgba(235, 45, 102, 0.35);
     width: 244px;
     height: 57px;
@@ -211,13 +211,13 @@
     line-height: 148.9%;
     margin-bottom: 0px;
   }
-  .jurnal{
+  .first-jurnal{
     width: 738px;
     height: 444px;
     position: absolute;
     top: 355px;
   }
-  .white{
+  .first-white{
     width: 9px;
     height: 9px;
     background: #FFFFFF;
@@ -225,41 +225,41 @@
     top: 253px;
     left: 512px;
   }
-  .thing{
+  .first-thing{
     margin-top: 264px;
     margin-left: 530px;
   }
-  .name{
+  .first-name{
     font-weight: 900;
     font-size: 15px;
     line-height: 18px;
     margin-bottom: 10px;
       }
-  .desc{
+  .first-desc{
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
   }
-  .price{
+  .first-price{
     font-weight: bold;
     font-size: 13px;
     line-height: 16px;
   }
-  .copter{
+  .first-copter{
     width: 687px;
     height: 374px;
     position: absolute;
      top: 31px;
      left: 8px;
    }
-  .jurBack{
+  .first-jurBack{
     position: absolute;
     top: 323px;
     left: -14px;
     width: 767px;
     height: 508px;
   }
-  .frame{
+  .first-frame{
     position: absolute;
     top: 385px;
     left: 45px;
@@ -274,23 +274,23 @@
     position: relative;
     margin: 0;
 }
-  .info{
+  .first-info{
     width: 443px;
     margin-top: 161px;
   }
-  .h1{
+  .first-h1{
     width: 443px;
     font-size: 36px;
     line-height: 44px;
     margin-bottom: 26px;
   }
-  .p{
+  .first-p{
     width: 370px;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 24px;
   }
-  .btn{
+  .first-btn{
     box-shadow: 0px 7px 35px rgba(235, 45, 102, 0.35);
     width: 244px;
     height: 57px;
@@ -298,14 +298,14 @@
     line-height: 148.9%;
     font-weight: 900;
   }
-  .jurnal{
+  .first-jurnal{
     width: 650px;
     height: 444px;
     position: absolute;
     top: 74px;
     left: 694px;
   }
-  .white{
+  .first-white{
     width: 9px;
     height: 9px;
     background: #FFFFFF;
@@ -313,34 +313,34 @@
     top: 253px;
     left: 370px;
   }
-  .thing{
+  .first-thing{
     margin-top: 264px;
     margin-left: 388px;
   }
-  .name{
+  .first-name{
     font-weight: 900;
     font-size: 15px;
     line-height: 18px;
     margin-bottom: 10px;
       }
-  .desc{
+  .first-desc{
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
   }
-  .price{
+  .first-price{
     font-weight: bold;
     font-size: 13px;
     line-height: 16px;
   }
-  .copter{
+  .first-copter{
     width: 687px;
     height: 374px;
    position: absolute;
     top: 31px;
     left: -174px;
   }
-  .jurBack{
+  .first-jurBack{
     position: absolute;
     top: 42px;
     left: 764px;

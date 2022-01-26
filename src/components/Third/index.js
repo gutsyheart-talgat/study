@@ -1,24 +1,24 @@
 import React from "react";
-import style from './third.module.css'
+import './third.css'
 import plus from './plus.png'
 
 export default function Third(){
     return (
-        <div className={style.third}>
-            <div className={style.left}>
-                <div className={style.square}></div>
-                <img className={style.plus} src={plus}/>
-                <div className={style.cont}>
-                    <h1 className={style.h1}>Поступление новых <br/> самокатов</h1>
-                    <p className={style.p}>Электротранспорт снова в моде!</p>
+        <div className="third">
+            <div className="third-left wow animate__animated animate__fadeInLeft">
+                <div className="third-square"></div>
+                <img className="third-plus" src={plus}/>
+                <div className="third-cont">
+                    <h1 className="third-h1">Поступление новых <br/> самокатов</h1>
+                    <p className="third-p">Электротранспорт снова в моде!</p>
                 </div>
             </div>
-            <div className={style.right}>
-                <div className={style.square}></div>
-                <img className={style.plus} src={plus}/>
-                <div className={style.cont}>
-                    <h1 className={style.h1}>Музыка всегда с тобой,<br/> где бы ты не был</h1>
-                    <p className={style.p}>Смотри свежую коллекцию JBL</p>
+            <div className="third-right wow animate__animated animate__fadeInRight">
+                <div className="third-square"></div>
+                <img className="third-plus" src={plus}/>
+                <div className="third-cont">
+                    <h1 className="third-h1">Музыка всегда с тобой,<br/> где бы ты не был</h1>
+                    <p className="third-p">Смотри свежую коллекцию JBL</p>
                  </div>
             </div>
         </div>

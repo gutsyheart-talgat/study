@@ -1,21 +1,21 @@
 
-.menu,.logo,.header,.buy{
+.header-menu,.header-logo,.header,.header-buy{
     display: flex;
     align-items: center;
 }
-.nameH1{
+.header-nameH1{
     font-style: normal;
     font-weight: bold;
     color: #3145FF;
     
 }
-.nameP,.menuP{
+.header-nameP,.header-menuP{
     font-style: normal;
     font-weight: normal;
     color: #2A2D46;
     
 }
-.btn{
+.header-btn{
     border: 1px solid #EB2D66;
     box-sizing: border-box;
     background: none;
@@ -23,19 +23,19 @@
     font-style: normal;
     
 }
-.btn:hover{
+.header-btn:hover{
     background:#EB2D66;
     color: #ffffff;
 }
-.marketBtn{
+.header-marketBtn{
     background: none;
     border: none;
 }
-.price{
+.header-price{
     font-style: normal;
     color: #2A2D46;
 }
-.burgerBtn{
+.header-burgerBtn{
     background: none;
     border: none;
 }
@@ -46,51 +46,51 @@
         height: 90px;
         position: relative;
     }
-    .logo{
+    .header-logo{
         position: absolute;
         width: 218px;
         top: 0px;
         left: 0px;
     }
-    .name{
+    .header-name{
         margin-left: 13px;
     }
-    .nameH1,.h1{
+    .header-nameH1,.header-h1{
         font-weight: bold;
         font-size: 13px;
         line-height: 16px;
     }
-    .nameH1{
+    .header-nameH1{
         margin-bottom: 3px;
     }
-    .nameP{
+    .header-nameP{
         font-weight: normal;
         font-size: 11px;
         line-height: 13px;
     }
-    .h1{
+    .header-h1{
         position: absolute;
         top: 66px;
         left: 0;
     }
-    .menu,.btn{
+    .header-menu,.header-btn{
         display: none;
     }
-    .buy{
+    .header-buy{
         position: absolute;
         top: 62px;
         right: 30px;
     }
-    .marketBtn{
+    .header-marketBtn{
         margin-right: 15px;
     }
-    .price{
+    .header-price{
         margin-right: 7px;
         font-weight: bold;
         font-size: 12px;
         line-height: 15px;
     }
-    .burgerBtn{
+    .header-burgerBtn{
         position: absolute;
         top: 7px;
         right: 30px;
@@ -100,33 +100,33 @@
     .header{
         margin-top: 38px;
     }
-    .menu,.btn,.h1{
+    .header-menu,.header-btn,.header-h1{
         display: none;
     }
-    .name{
+    .header-name{
         margin-left: 13px;
         margin-right: 118px;
     }
-    .nameH1{
+    .header-nameH1{
         font-size: 13px;
         line-height: 16px;
         text-transform: uppercase;
     }
-    .nameP{
+    .header-nameP{
         font-weight: normal;
         font-size: 11px;
         line-height: 13px;
     }
-    .buy{
+    .header-buy{
         margin-right: 60px;
     }
-    .price{
+    .header-price{
         font-weight: bold;
         font-size: 12px;
         line-height: 15px;
         margin-right: 6px;
     }
-    .marketBtn{
+    .header-marketBtn{
         margin-right: 15px;
     }
     
@@ -136,36 +136,36 @@
     .header{
         margin-top: 38px;
     }
-    .menu,.btn{
+    .header-menu,.header-btn{
         display: none;
     }
-    .name{
+    .header-name{
         margin-left: 13px;
         margin-right: 70px;
     }
-    .nameH1,.h1{
+    .header-nameH1,.header-h1{
         font-size: 13px;
         line-height: 16px;
         text-transform: uppercase;
     }
-    .nameP{
+    .header-nameP{
         font-size: 11px;
         line-height: 13px;
     }
-    .h1{
+    .header-h1{
         display: block;
         margin-right: 77px;
     }
-    .buy{
+    .header-buy{
         margin-right: 89px;
     }
-    .price{
+    .header-price{
         font-weight: bold;
         font-size: 12px;
         line-height: 15px;
         margin-right: 6px;
     }
-    .marketBtn{
+    .header-marketBtn{
         margin-right: 15px;
     }
   }
@@ -176,38 +176,38 @@
     .header{
         margin-top: 38px;
     }
-    .logo{
+    .header-logo{
         margin-right: 5px;
     }
-    .nameH1,.h1{
+    .header-nameH1,.header-h1{
         font-size: 13px;
         line-height: 16px;
     }
-    .name{
+    .header-name{
         margin-left: 13px;
     }
-    .nameH1{
+    .header-nameH1{
         margin-bottom: 3px;
     }
-    .nameP{
+    .header-nameP{
         font-size: 11px;
         line-height: 13px;
     }
-    .menu{
+    .header-menu{
         display: flex;
         width: 366px;
         margin-right: 49px;
     }
-    .menuP{
+    .header-menuP{
         margin-right: 29px;
         font-size: 12px;
         line-height: 15px;
     }
-    .h1{
+    .header-h1{
         display: block;
         margin-right: 34px;
     }
-    .btn{
+    .header-btn{
         width: 130px;
         height: 30px;
         margin-right: 34px;
@@ -216,18 +216,18 @@
         font-size: 11px;
         line-height: 13px;
     }
-    .buy{
+    .header-buy{
         margin: 0;
     }
-    .marketBtn{
+    .header-marketBtn{
         margin-right: 15px;
     }
-    .price{
+    .header-price{
         margin-right: 6px;
         font-weight: bold;
         font-size: 12px;
     }
-    .burger{
+    .header-burger{
         display: none;
     }
   }
