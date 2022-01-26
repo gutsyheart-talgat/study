@@ -1,89 +1,89 @@
-.left{
+.thirdSlide-left{
     background: url('./left.png') center/cover;
 }
-.right{
+.thirdSlide-right{
     background:  url('./right.png')center/cover;
 }
-.square{
+.thirdSlide-square{
     background: #FFFFFF;
 }
-.h1{
+.thirdSlide-h1{
     font-style: normal;
     color: #FFFFFF;
 }
-.p{
+.thirdSlide-p{
     font-style: normal;
     color: #FFFFFF;
 }
 
 @media (max-width: 576px){
-    .left,.right{
+    .thirdSlide-left,.thirdSlide-right{
         height: 412px;
         margin-right: 30px;
         position: relative;
     }
-    .square{
+    .thirdSlide-square{
         width: 19px;
         height: 19px;
         position: absolute;
         top: 213px;
         left: 18px;
     }
-    .plus{
+    .thirdSlide-plus{
         position: absolute;
         width: 25px;
         height: 25px;
         top: 20px;
         right: 16px;
     }
-    .cont{
+    .thirdSlide-cont{
         margin-top: 243px;
         margin-left: 48px;
         
     }
-    .h1{
+    .thirdSlide-h1{
         font-weight: 900;
         font-size: 19px;
         line-height: 120.69%;
         margin-bottom: 14px;
     }
-    .p{
+    .thirdSlide-p{
         font-weight: normal;
         font-size: 13px;
         line-height: 135.69%;
     }
 }
 @media (min-width: 576px){
-    .left,.right{
+    .thirdSlide-left,.thirdSlide-right{
         height: 418px;
         margin-right: 30px;
         position: relative;
     }
-    .square{
+    .thirdSlide-square{
         width: 22.65px;
         height: 22.65px;
         position: absolute;
         top: 223px;
         left: 48px;
     }
-    .plus{
+    .thirdSlide-plus{
         position: absolute;
         width: 25px;
         height: 25px;
         top: 29px;
         right: 32.5px;
     }
-    .cont{
+    .thirdSlide-cont{
         margin-top: 253px;
         margin-left: 85.66px;
         
     }
-    .h1{
+    .thirdSlide-h1{
         font-weight: 900;
         font-size: 27px;
         line-height: 120.69%;
     }
-    .p{
+    .thirdSlide-p{
         font-weight: normal;
         font-size: 16px;
         line-height: 135.69%;
@@ -91,34 +91,34 @@
     }
 }
 @media (min-width: 768px){
-    .left,.right{
+    .thirdSlide-left,.thirdSlide-right{
         height: 425px;
         position: relative;
     }
-    .cont{
+    .thirdSlide-cont{
         margin-top: 257px;
         margin-left: 87px;
         
     }
-    .h1{
+    .thirdSlide-h1{
         font-weight: 900;
         font-size: 27px;
         line-height: 120.69%;
         margin-bottom: 5px;
     }
-    .p{
+    .thirdSlide-p{
         font-weight: normal;
         font-size: 16px;
         line-height: 135.69%;
     }
-    .plus{
+    .thirdSlide-plus{
         width: 25px;
         height: 25px;
         position: absolute;
         top: 30px;
         right: 33px;
     }
-    .square{
+    .thirdSlide-square{
         width: 23px;
         height: 23px;
         position: absolute;

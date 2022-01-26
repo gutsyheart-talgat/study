@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import style from './thirdSlide.module.css'
+import './thirdSlide.css'
 import plus from './plus.png'
 
 export default class SimpleSlider extends Component {
@@ -13,22 +13,22 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
     return (
-      <div>
+      <div className="wow animate__animated animate__fadeInLeft">
         <Slider {...settings}>
-          <div className={style.left}>
-            <div className={style.square}></div>
-            <img className={style.plus} src={plus}/>
-            <div className={style.cont}>
-              <h1 className={style.h1}>Поступление новых <br/> самокатов</h1>
-              <p className={style.p}>Электротранспорт снова в моде!</p>
+          <div className="thirdSlide-left">
+            <div className="thirdSlide-square"></div>
+            <img className="thirdSlide-plus" src={plus}/>
+            <div className="thirdSlide-cont">
+              <h1 className="thirdSlide-h1">Поступление новых <br/> самокатов</h1>
+              <p className="thirdSlide-p">Электротранспорт снова в моде!</p>
             </div>
           </div>
-          <div className={style.right}>
-            <div className={style.square}></div>
-            <img className={style.plus} src={plus}/>
-            <div className={style.cont}>
-              <h1 className={style.h1}>Музыка всегда с тобой,<br/> где бы ты не был</h1>
-              <p className={style.p}>Смотри свежую коллекцию JBL</p>
+          <div className="thirdSlide-right">
+            <div className="thirdSlide-square"></div>
+            <img className="thirdSlide-plus" src={plus}/>
+            <div className="thirdSlide-cont">
+              <h1 className="thirdSlide-h1">Музыка всегда с тобой,<br/> где бы ты не был</h1>
+              <p className="thirdSlide-p">Смотри свежую коллекцию JBL</p>
             </div>
           </div>
         </Slider>
