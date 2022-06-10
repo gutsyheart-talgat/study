@@ -38,11 +38,7 @@
   }
 }
 
-@media (min-width: 992px) {
-  .container {
-      width: 962px;
-  }
-}
+
 
 @media (min-width: 1200px) {
   

@@ -12,8 +12,6 @@ import ThirdSlide from './components/ThirdSlide'
 import Fourth from './components/Fourth'
 import Fifth from './components/Fifth'
 
-
-
 function App() {
   
   return (
